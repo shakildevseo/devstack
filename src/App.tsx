@@ -1,11 +1,14 @@
 
 import './App.css'
+import { Navbar } from './components/Navbar'
 
 function App() {
 
   return (
     <>
-            <h2 className='text-7xl text-center font-bold'>DevStack</h2>
+      <header>
+        <Navbar />
+      </header>
     </>
   )
 }
