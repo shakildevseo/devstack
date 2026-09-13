@@ -44,9 +44,9 @@ export const Footer = () => {
                         Curated tools, technologies, and resources for developers building
                         modern software.
                     </p>
-                    <ul className="mt-3 flex justify-center gap-4 text-xs font-semibold text-slate-800 sm:justify-start">
-                        {socialLinks.map((link) => (
-                            <li key={link.label}>
+                    <ul className="mt-3 flex list-inside list-disc justify-center gap-4 text-xs font-semibold text-slate-800 sm:list-none sm:justify-start">
+                        {socialLinks.map((link, index) => (
+                            <li key={link.label} className={index === 0 ? 'list-none' : undefined}>
                                 <a href={link.href} target="_blank" className="transition-colors hover:text-orange-500">
                                     {link.label}
                                 </a>
