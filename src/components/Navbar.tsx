@@ -34,7 +34,7 @@ export const Navbar = () => {
 
                     {/* logo add */}
                     <div>
-                        <img src={logo} alt="DevStack logo" className="h-35 w-35 object-contain" />
+                        <img src={logo} alt="DevStack logo" className="h-8 w-auto shrink-0 object-contain sm:h-10" />
                     </div>
 
 
