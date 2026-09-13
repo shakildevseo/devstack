@@ -19,11 +19,11 @@ export const Hero = () => {
                     <br className="sm:hidden" /> the stack that fits your
                     next project.
                 </p>
-                <div className="mt-4 flex flex-wrap justify-center gap-2 sm:mt-6 sm:justify-start sm:gap-0 lg:mt-8">
-                    <a className="inline-flex min-w-26 items-center justify-center rounded-md bg-linear-to-r from-devstack-primary via-devstack-pink to-devstack-violet px-2 py-2 text-[9px] font-bold text-white sm:min-w-35 sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs" href="#technologies">
+                <div className="mt-4 flex flex-nowrap justify-center gap-2 sm:mt-6 sm:justify-start sm:gap-0 lg:mt-8">
+                    <a className="inline-flex min-w-0 flex-1 items-center justify-center rounded-md bg-linear-to-r from-devstack-primary via-devstack-pink to-devstack-violet px-2 py-2 text-[9px] font-bold text-white sm:min-w-35 sm:flex-none sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs" href="#technologies">
                         Explore Technologies
                     </a>
-                    <a className="ml-1 inline-flex min-w-26 items-center justify-center rounded-md border border-gray-200 bg-white px-2 py-2 text-[9px] font-bold text-[#374151] sm:ml-3 sm:min-w-34 sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs md:ml-4 lg:ml-5" href="#about">
+                    <a className="ml-1 inline-flex min-w-0 flex-1 items-center justify-center rounded-md border border-gray-200 bg-white px-2 py-2 text-[9px] font-bold text-[#374151] sm:ml-3 sm:min-w-34 sm:flex-none sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs md:ml-4 lg:ml-5" href="#about">
                         Learn More
                     </a>
                 </div>
