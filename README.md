@@ -43,7 +43,7 @@ JSX is a syntax extension for JavaScript that allows me to write HTML-like marku
 ### 4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
 `useEffect` is used to handle side effects in React, such as fetching data after a component renders.
 
-**In my project:** I did not need to use `useEffect` because the technology data is imported directly from `technologies.json` in `Technology.tsx`.
+**In my project:** I used `useEffect` in `Technology.tsx` to fetch the technology data from `technologies.json` when the component loads. During the fetch, a loading spinner is displayed.
 
 ---
 
