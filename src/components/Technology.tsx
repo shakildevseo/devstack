@@ -61,7 +61,7 @@ export const Technology = () => {
 
     const addToStack = (technology: TechnologyItem) => {
         if (stack.some((item) => item.id === technology.id)) {
-            window.alert(`${technology.name} is already in your stack.`);
+            toast.warning(`${technology.name} is already in your stack.`);
             return;
         }
 
@@ -90,7 +90,7 @@ export const Technology = () => {
             <section id="technologies" className="mx-auto max-w-7xl min-w-0 px-3 py-3 sm:px-8 sm:py-7 lg:px-10 lg:py-10">
                 <div className="mb-4 max-w-2xl sm:mb-10">
                     <h3 className="text-3xl font-black tracking-tight text-slate-950 text-center sm:text-left sm:text-4xl">
-                        Explore the <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">Technologies</span>
+                        Explore the <span className="brand-gradient-text">Technologies</span>
                     </h3>
                     <p className="mt-3 text-sm leading-6 text-slate-500 sm:mt-4 sm:text-base sm:leading-7 text-center sm:text-left">Pick one technology per category to build your ideal stack.</p>
                 </div>

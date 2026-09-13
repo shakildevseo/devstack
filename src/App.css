@@ -10,3 +10,17 @@
   --color-devstack-violet: #7c43db;
   --font-sans: 'DM Sans', sans-serif;
 }
+
+:root {
+  --devstack-brand-gradient: linear-gradient(90deg, var(--color-devstack-primary), var(--color-devstack-pink), var(--color-devstack-violet));
+}
+
+.brand-gradient {
+  background-image: var(--devstack-brand-gradient);
+}
+
+.brand-gradient-text {
+  background-image: var(--devstack-brand-gradient);
+  background-clip: text;
+  color: transparent;
+}

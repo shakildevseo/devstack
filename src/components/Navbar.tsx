@@ -63,7 +63,7 @@ export const Navbar = () => {
                         <button className="px-4 py-2 text-sm font-semibold text-gray-700 hover:text-orange-500 transition-colors cursor-pointer">
                             Sign In
                         </button>
-                        <button className="px-5 py-2 text-sm font-semibold text-white bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 rounded-full hover:opacity-90 shadow-md transition-all cursor-pointer">
+                        <button className="brand-gradient px-5 py-2 text-sm font-semibold text-white rounded-full hover:opacity-90 shadow-md transition-all cursor-pointer">
                             Sign Up
                         </button>
                     </div>
